@@ -2,52 +2,63 @@ import React from 'react';
 import styled from "styled-components";
 
 const AboutUs = () => {
-    return ( 
+    return (
         <div className='aboutContainer'>
-        <section id="about-info">
-        <div className="aboutUscontainer">
-            <div className="info-left">
-                <h1 className="l-heading"><span className="text-primary">About </span>HK FILMS</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime adipisci illo inventore! Omnis fugit quo, 
-                    tempora quis blanditiis officiis eaque libero asperiores, fugiat assumenda id laborum magni deleniti amet
-                     quae!
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint laudantium accusamus iure sequi repellat 
-                    error necessitatibus provident modi doloremque animi.
-                </p>
-
+            <div className="aboutUsImage">
+                <div className="imgText f2 fw6">Who We Are</div>
             </div>
-            <div className="info-right">
-                <img src={require('../images/background/dance.png').default} alt="" />
-            </div>
-        </div>
-    </section>
+            <div className="aboutUs">
+                <div className="box">
+                    <h1>About Us</h1>
+                    <span className="divider"></span>
+                    <p>You wanna get a change,
+                        Or learn something new.
+                        Enrich your happiness and,
+                        Revive your taste of music
+                        We are all here for you.
+                    </p>
+                    <p style={{ marginTop: '1rem' }}>
+                        Explore our site and tune on the instrument with a perfect blend of music you want to relieve again. Explore the artist inside you with us and embark on your new journey.
 
-    <section id="testimonials" className="py-3">
-        <div className="testiContainer">
-            <h2 className="l-heading">What Our Guests Say</h2>
-            <div className="testimonials bg-primary" >
-                <img src={require('../images/people/person-1.jpg').default} alt="Na"/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam omnis modi nobis, eveniet, 
-                    facilis magni officia dolores error ipsam ab minus placeat natus. Neque perspiciatis expedita a quaerat 
-                    illo fugiat dolore rerum unde, odit modi nobis, omnis ab quos?
-                </p>
-            </div>
-
-            <div className="testimonials bg-primary" >
-                    <img src={require('../images/people/person-2.jpg').default} alt="Ja"/>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam omnis modi nobis, eveniet, 
-                        facilis magni officia dolores error ipsam ab minus placeat natus. Neque perspiciatis expedita a quaerat 
-                        illo fugiat dolore rerum unde, odit modi nobis, omnis ab quos?
                     </p>
                 </div>
+                <div className="box">
+                    <img src={require('./about.jpg').default} alt="" />
+                </div>
+            </div>
+
+            <div className="aboutUsMV">
+                <div className="box">
+                    <h1>Mission</h1>
+                    <span className="divider"></span>
+
+                    <p style={{ marginTop: '1rem' }}>
+                        "Art" has always been a fascinating part of our lives.
+                        It has made us understand, what we really dwell for.
+                        To art to be loved and explored further, we bring you the best,from the best!
+                        So learn with us, grow with us, experience with us and explore with us the journey of arts and culture. We promise we will never let you walk alone, we will be there till this journey of yours with us, becomes the most memorable and beautiful one!
+
+
+
+                    </p>
+                </div>
+                <div className="box">
+                    <h1>Vision </h1>
+                    <span className="divider"></span>
+
+                    <p style={{ marginTop: '1rem' }}>
+                        We here at H. K.  Films focus on improving the skills of each and every artist who loves art more than anything
+                        We bring you a platform full of knowledge, training, growth, and enhancement so that you can bring the best out of yourself!
+
+
+                    </p>
+                </div>
+            </div>
 
 
         </div>
-    </section>
-        </div>
-     );
+    );
 }
- 
+
 export default AboutUs;
 

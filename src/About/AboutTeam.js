@@ -73,7 +73,7 @@ class AboutTeam extends Component{
         <li>
         <div >      
             
-            <img src={item.image} className="br-100 h4 w4 dib" style={{objectFit: 'cover'}}  alt="" />
+            <img src={item.image} className="br-100 h4 w4 dib" style={{objectFit: item.cover ? 'cover': 'fill'}}  alt="" />
                 <h1 className="mb1">{item.name}</h1>
                 <h2 className="f4 mb3">{item.title}</h2>
                 <hr className="mw3 bb bw1 b--black-10"/>          

@@ -6,7 +6,7 @@ export const AboutTrainerData = [
         image : require("../images/people/himanshu.jpg").default,
         title: 'Founder & COO',
         name : 'Himansu',
-        desc : 'Founder of hk films and entertainment started his career at the age of 14 as a student in PSS Allahabad, uttar Pradesh India.',
+        desc : 'He is well trained in Hip-Hop & Acting. He apart from dancing has worked in field of acting too in bollywood with Zee TV, Colours, Sab TV.He has been dancing since a decade & has performed in various events & Shows on air and off air.',
         cover: true,
     },
     {

@@ -6,39 +6,39 @@ export const AboutTeamData = [
         image : require("../images/people/himanshu.jpg").default,
         title: 'Founder & COO',
         name : 'Himansu',
-        desc : 'Founder of hk films and entertainment started his career at the age of 14 as a student in PSS Allahabad, uttar Pradesh India.',
-
+        desc : 'Founder of hk films and entertainment started his career at the age of 14 honesty is his policy, Great vibes, Mellow the way he enjoys it all. Always strong like a diamond. Naturalistic with his thought, Sharp and hardworking, and is a professional Happy from the way of living Full of creativity.',
+        cover: true,
     },
     {
         id :  '2',
         image : require("../images/people/Kumudini.jpg").default,
         title: 'CFO',
         name : 'Kumudini',
-        desc : ' She is a certified trained last 4 years in hkfilms. Live in Pune  Done many workshop all over the Pune n mumbai',
-
+        desc : ' Co-Founder of hk films and entertainment Knightly with her brave sense,Inherent with her views and actions.Majestic the way she lives',
+        cover: true,
     },
     {
         id :  '3',
-        image : ("http://tachyons.io/img/avatar_1.jpg"),
+        image : require("../images/people/Tripti.jpg").default,
         title: 'CEO & CMO',
         name : 'Kumari Tripti',
-        desc : ' She is the CEO & CMO of the company, has been with the company for over 7 months.Her leadership style is transformational. Even if she lands with speed bumps on the road, she does not let it come between her career. She is here to raise the bar, be a team player and stay on top of the game. As a CEO, her goal is to put the needs of the company first. Her vision for the company is a world where creators can freely create, leave their legacy behind and to make you fall in love with the art.',
-
-    },
+        desc : ' CEO & CMO of hk films and entertainment.Her leadership style is transformational. Even if she lands with speed bumps on the road, she does not let it come between her career. She is here to raise the bar, be a team player and stay on top of the game. As a CEO, her goal is to put the needs of the company first. Her vision for the company is a world where creators can freely create, leave their legacy behind and to make you fall in love with the art.',
+        cover: false,
+    },  
     {
         id :  '4',
-        image : ("http://tachyons.io/img/avatar_1.jpg"),
+        image : require("../images/people/divyansh.jpg").default,
         title: 'CTO',
         name : 'Divyansh Sinha',
-        desc : ' Quite affectionate and outgoing. She loves to get chin scratches and will roll around on the floor waiting for you give her more of them.',
-
+        desc : 'CTO of HK films and entertainment. He has a delightful approach to life. Industrious about the way he works. Trueness and clarity is his hobby.',
+        cover: true,
     },
     {
         id :  '5',
-        image : ("http://tachyons.io/img/avatar_1.jpg"),
+        image : require("../images/people/utsav.jpg").default,
         title: 'CTO',
         name : 'Udit Utsav',
-        desc : ' Quite affectionate and outgoing. She loves to get chin scratches and will roll around on the floor waiting for you give her more of them.',
-
+        desc : 'CTO of HK films and entertainment. Honesty is his policy, sensible with his thoughts, sharpen with his creativity. Has a better aprroach for doing work.',
+        cover: true,
     },
 ]
