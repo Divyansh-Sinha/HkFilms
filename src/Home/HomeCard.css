@@ -1,0 +1,12 @@
+.cat span{
+    transition: width 0.3s;
+}
+
+.cat:hover span{
+    width: 6em;
+    
+}
+
+.cat{
+    box-shadow: 2px 0px 1px 0 var(--sand);
+}

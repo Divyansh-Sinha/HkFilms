@@ -1,0 +1,68 @@
+{
+	"homepage": "http://Divyansh-Sinha.github.io/HkFilms",
+  "name": "HkFilm",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {	  
+    "3d-react-carousal": "^3.1.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.12.1",
+    "@material-ui/icons": "^4.11.2",
+    "@react-spring/parallax": "^9.2.1",
+    "@react-spring/web": "^9.2.1",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "emailjs-com": "^2.6.4",
+    "mdbreact": "^5.1.0",
+    "react": "^17.0.2",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^17.0.2",
+    "react-ga": "^3.3.0",
+    "react-icons": "^4.2.0",
+    "react-reveal": "^1.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-scroll-motion": "^0.2.1",
+    "react-scroll-parallax": "^2.4.0",
+    "react-simple-chatbot": "^0.6.1",
+    "react-spinners": "^0.11.0",
+    "react-spring": "^9.2.1",
+    "styled-components": "^5.2.1",
+    "tachyons": "^4.12.0",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

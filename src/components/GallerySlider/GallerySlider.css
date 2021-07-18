@@ -1,0 +1,83 @@
+.galleryText{
+    position: absolute;
+    top: -48vh;
+    left: -40vw;
+    color: white;
+}
+
+.galText1{
+    font-size: 2vw;
+    height: 5vh;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.galText2{
+    font-size: 3vw;
+    height: 5vh;
+    text-transform: capitalize;
+    margin-bottom: 0;
+}
+.galText3{
+    font-size: 3vw;
+    height: 7vh;
+    text-transform: capitalize;
+    margin-top: 0.5em;
+    padding: 0;
+}
+
+.galTextClust{
+    font-size: 2.5vw;
+    text-transform: capitalize;
+    margin-top: 5vw;
+}
+
+/* Button Styling */
+
+.galButton{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  margin-top: 2em;
+  padding: 1em 2em;
+  color: #ffa260;
+  transition:  0.25s;
+}
+
+.galButton:hover,.galButton:focus{
+  border-color: hsl(100,50%,50%);
+  color: #fff;
+  box-shadow: 0 0.7em 0.7em -0.3em hsl(100,50%,50%);
+  transform: translateY(-0.25em);
+}
+
+    
+
+
+
+@media (max-width: 768px){
+    .galleryText{
+        top: -10vh;
+        left: -45vw;
+    }
+
+    .galText1,.galText2,.galText3{
+        height: 2.5vh;
+        font-size: 3.5vw;
+        font-weight: 900;
+    }
+    .galText3{  
+        margin-top: 0.2em;
+    }
+
+    .galTextClust{
+        margin-top: 3vh;
+    }
+
+    .galButton{
+        display: none;
+    }
+}

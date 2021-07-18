@@ -1,0 +1,117 @@
+body {
+    background: #f7f7f7;
+  }
+  
+  .envelope {
+    width: 220px;
+    margin: 150px auto;
+    height: 120px;
+    position: relative;
+    background: #ad6605;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px -3px #989898;
+  }
+  
+  .top,
+  .bottom {
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+  }
+  
+  .top {
+    border-bottom: 80px solid #c27914;
+    top: -80px;
+    transform-origin: bottom;
+    z-index: 3;
+    transition: all .8s ease;
+    transform: rotateX(0deg);
+  }
+  
+  .bottom {
+    border-bottom: 80px solid #fec04f;
+    top: -40px;
+    z-index: 4;
+  }
+  
+  .left,
+  .right {
+    width: 0;
+    height: 0;
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    top: 0;
+    z-index: 4;
+  }
+  
+  .left {
+    border-left: 110px solid #fe9019;
+    position: absolute;
+    left: 0;
+  }
+  
+  .right {
+    border-right: 110px solid #fe9019;
+    position: absolute;
+    right: 0;
+  }
+  
+  .back {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    transition: all 1s ease;
+    z-index: 3;
+    transition-delay: 0.4s;
+    top: -35%;
+  }
+  
+  .paper {
+    width: 90%;
+    height: 100%;
+    background: #f6f8e7;
+    margin: 6px auto 0;
+    box-shadow: 0px 0px 2px 0px #909090;
+    transition: all 0.5s ease-out;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .envelope.fold .back {
+    z-index: 3;
+    transition-delay: 0.3s;
+    top: 0;
+  }
+  
+  .envelope.fold .top {
+    transition-delay: .6s;
+    transform: rotateX(180deg);
+    z-index: 6;
+  }
+  
+  .paper .line {
+    height: 1px;
+    background: #999;
+    width: 10%;
+    margin: 4px 0;
+  }
+  
+  .paper .line.one {
+    width: 50%;
+  }
+  
+  .paper .line.two {
+    width: 30%;
+  }
+  
+  .paper .line.three {
+    width: 80%;
+  }
