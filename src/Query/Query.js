@@ -13,7 +13,7 @@ function Query() {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_u852ob7', 'template_z2ialeu', e.target, 'user_1wsk6AiXMiAZIS5b2Pxpr')
+        emailjs.sendForm(`service_2iz1tfc`, `template_t2cz6xk`, e.target, `user_rRkoNzMx64OU2XpJPrt6d`)
             .then((result) => {
                 alert('query send sucessfully we will contact you soon')
                 // console.log(result.text);

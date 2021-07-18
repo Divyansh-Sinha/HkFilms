@@ -43,7 +43,7 @@ export const homeObjThree = {
     lightTextDesc: false,
     topLine: 'HK FIlMS',
     headline: 'Yoga',
-    description: 'The ggod thing about zumba is that it is not just about dance . it really is about connecting with people and making a difference.',
+    description: 'Yoga or the union of sole and body is the divine and ancient practice for maintaining the physical and mental balance of human body .',
     
     imgStart: false,
     img: require('./images/yoga.jpg').default,
@@ -60,7 +60,7 @@ export const homeObjFour = {
     lightTextDesc: false,
     topLine: 'HK FIlMS',
     headline: 'Classical',
-    description: 'It is s one of my strongest dance pieces - having just done Play Without Words which was veering away from a lot of dance.',
+    description: 'These are the traditional forms of dance that have long history in the  indian culture and art performing it and being a part of it withholds the long indian history and instills its pride',
 
     
     imgStart: true,

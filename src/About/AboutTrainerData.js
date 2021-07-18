@@ -5,7 +5,7 @@ export const AboutTrainerData = [
         id :  '1',
         image : require("../images/people/himanshu.jpg").default,
         title: 'Founder & COO',
-        name : 'Himansu',
+        name : 'Himanshu',
         desc : 'He is well trained in Hip-Hop & Acting. He apart from dancing has worked in field of acting too in bollywood with Zee TV, Colours, Sab TV.He has been dancing since a decade & has performed in various events & Shows on air and off air.',
         cover: true,
     },

@@ -25,10 +25,49 @@
 .testimonial .col-3{
     text-align: center;
     padding: 40px 20px 40px;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+  /* border: 2px black solid; */
     cursor: pointer;
     transition: transform .5s;
+    position: relative;
+    z-index: 1;
+    box-shadow: 2px 2px 5px black;
+
 }
+
+
+
+
+.testimonial .col-3::after{
+    position: absolute;
+    content: "";    
+    border-right: 2px solid coral;
+    border-bottom: 2px solid coral;
+    
+    width: 100%;
+    height: 100%;
+    top: 10px;
+    left: 10px;
+    transition: 0.2s;
+    z-index: 0;
+
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.testimonial .col-3:hover::after{
+    border-right: none;
+    border-bottom: none;
+    border-left: 2px solid indigo;
+    border-top: 2px solid indigo;
+    top: -10px ; 
+    left: -10px ;
+    
+}
+
+
+
 .testimonial .col-3 img{
     width: 50px;
     margin-top: 20px;

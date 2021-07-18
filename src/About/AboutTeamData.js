@@ -5,7 +5,7 @@ export const AboutTeamData = [
         id :  '1',
         image : require("../images/people/himanshu.jpg").default,
         title: 'Founder & COO',
-        name : 'Himansu',
+        name : 'Himanshu',
         desc : 'Founder of hk films and entertainment started his career at the age of 14 honesty is his policy, Great vibes, Mellow the way he enjoys it all. Always strong like a diamond. Naturalistic with his thought, Sharp and hardworking, and is a professional Happy from the way of living Full of creativity.',
         cover: true,
     },

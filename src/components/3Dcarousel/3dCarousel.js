@@ -11,11 +11,9 @@ const Gallery = () => {
         return(
           
           
-          <a  style={{backgroundImage: `url(${item.url})`, height: '35vh', width: '35vw' }} className="link black dim db mw5 pa2 br2 ba b--black-10 shadow-1" className="link mw5 dt hide-child br2 cover bg-center">
+          <a  style={{backgroundImage: `url(${item.url})`, height: '35vh', width: '35vw' ,loading: 'lazy'}} className="link black dim db mw5 pa2 br2 ba b--black-10 shadow-1" className="link mw5 dt hide-child br2 cover bg-center">
             
-            <span className="white dtc v-mid w-100 h-100 child bg-black-40 pa5">
-          Card title
-        </span>
+            
           </a>
         )
         

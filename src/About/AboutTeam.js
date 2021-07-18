@@ -83,10 +83,7 @@ class AboutTeam extends Component{
             
                     <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                         <FaFacebook />
-                    </SocialIconLink>
-                    <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                        <FaTwitter />
-                    </SocialIconLink>
+                    </SocialIconLink>                   
                     <SocialIconLink href="/" target="_blank" aria-label="Youtube">
                         <FaYoutube />
                     </SocialIconLink>

@@ -12,7 +12,7 @@ const FooterPage = () => {
                 <SocialLogo>
                 HK Films
                 </SocialLogo>
-                <WebsiteRights><span style={{display: 'block', textAlign: 'center'}}><i className="fa fa-envelope"></i> HkFilm@gmail.com</span> HK Films © {new Date().getFullYear()} All rights reserved.  </WebsiteRights>
+                <WebsiteRights><span style={{display: 'block', textAlign: 'center'}}><i className="fa fa-envelope"></i> hkfilms005@gmail.com</span> HK Films © {new Date().getFullYear()} All rights reserved.  </WebsiteRights>
                 <SocialIcons>
                     <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                         <FaFacebook />
