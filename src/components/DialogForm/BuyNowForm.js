@@ -16,7 +16,7 @@ function BuyNowForm({name , price}) {
                 <main class="pa4 black-80">
                     <form class="measure center w-100" >
                         <fieldset id="sign_up" className="ba b--transparent ph0 mh0 w-100">
-                            <legend className="f4 fw6 ph0 mh0">Contact Us - 9431087543/Pay through QR code</legend>
+                            <legend className="f4 fw6 ph0 mh0">Pay On 7757829673(G-PAY)</legend>
                            
 
                             <div className="mt3">
