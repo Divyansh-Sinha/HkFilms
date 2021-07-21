@@ -94,7 +94,7 @@ class ChatBots extends Component {
           },
           {
             id:'Contact', 
-            message:'phone number = +91 - 6200878543 , Email = xyz@gmail.com', 
+            message:'phone number = +91 - 7757829673 , Email = hkfilms005@gmail.com', 
             trigger : 'content'
           },
 

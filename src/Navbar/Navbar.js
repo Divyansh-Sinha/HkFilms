@@ -19,6 +19,17 @@ import icon from '../images/icons/hkfilm.jpg';
 const Navbar = () => {
   const [IsOpen, setIsOpen] = useState(false);
   const [colorChange,setColorChange] = useState(false);
+  
+  const show = ()=>{
+    
+    let drop =  document.querySelector('.dropdown');
+   
+    if(drop.className === 'dropdown')      
+      drop.classList.add('show');  
+    else
+      drop.classList.remove('show'); 
+     
+  }
 
   useEffect(()=>{
     window.onscroll = function() {
@@ -29,6 +40,8 @@ const Navbar = () => {
         setColorChange(false);
       }
     };
+
+    
     
   })
   
@@ -54,7 +67,7 @@ const Navbar = () => {
             </NavLink>
           </span>
           <span >
-            <div activeClassName="active1" className="text-link" id="about" to="/about/us">
+            <div activeClassName="active1" className="text-link" id="about" to="/about/us" onClick={show}>
               About <i className="fa fa-caret-down"></i>
               <div className="dropdown">
                 

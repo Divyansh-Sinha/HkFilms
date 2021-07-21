@@ -98,7 +98,7 @@ background-color: var(--golden-clr);
   padding-bottom: 1.3rem;
 }
 
-#about:hover .dropdown{
+.show{
   display: block;
 }
  
